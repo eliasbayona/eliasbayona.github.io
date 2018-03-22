@@ -1,0 +1,116 @@
+ /** Font made from http://www.onlinewebfonts.com oNline Web Fonts is licensed by CC BY 3.0 **/
+
+/**	=========================
+			Nav bar
+	========================= **/
+
+.navbar-custom {
+	margin: 0;
+	-index: 1000;
+	width: 100%;
+	list-style-type: none;
+	background-color: black;
+}
+.nav li a:hover{
+	color: #A3956D;
+	background-color: rgba(0,0,0,0);
+}
+.nav li a {
+	display: block;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15;
+	font-weight: normal;
+	text-align: center;
+}
+.navbar-center{
+	float: left;
+	display: table;
+	table-layout: fixed;
+	margin-left:170px;
+}
+
+/** ============================
+				Fonts
+	============================ **/
+
+@font-face {
+	font-family: DINLightRegular;
+	src: url(../fonts/DIN_Light_Regular.otf);
+}
+@font-face{
+	font-family: DIN_Next_W01_Light;
+	scr: url(../fonts/DIN_Next_W01_Light.ttf);
+}
+
+.font_0{
+	font: normal normal normal 83px/1.4em DIN_Next_W01_Light,DINLightRegular,sans-serif;"
+}
+.font_1{
+	font:normal normal normal 18px/1.4em DIN_Next_W01_Light,DINLightRegular,sans-serif;
+}
+.font_2{
+	font-family: 'noticia text', serif;
+	font-style: italic;
+}
+
+.font_3{
+	font-size:16;
+	font-family: 'noticia text', serif;
+	font-style: italic;
+}
+.font_4{
+	font: italic normal normal 40px/.9em 'noticia text',serif;
+}
+.font_5{
+	font: normal normal normal 60px/1.4em DIN_Next_W01_Light,DINLightRegular,sans-serif;
+}
+.font_6{
+	font-family: 'noticia text', serif;
+}
+
+/** =====================
+			layout
+	===================== **/
+.breaker{
+	width: 50px;
+	background-color:#A3956D;
+	height: 3px; 
+	margin: 25 0 25 0;
+}
+.background{
+	position: fixed;
+	overflow:auto;
+	height:100%;
+	width:100%;
+	background-image:url(../img/sampha.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+}
+.btn-buy{
+	background-color:#A3956D;
+	border-radius: 0px; 
+	font-family: 'noticia text', serif; 
+	font-style: italic; 
+	color: white;
+}
+.box-black{
+	color:white; 
+	padding:25px; 
+	line-height:1.4em; 
+	font-style: italic;  
+	background-color:rgba(0, 0, 0, .6);
+}
+.box-white{
+	color:black; 
+	padding:25px;
+	line-height:1.4em; 
+	font-style: italic;  
+	background-color:rgba(255, 255, 255, .9);
+}
+.footer{
+	color:white;
+	margin-top:25px;
+	margin-bottom:50px;
+}
