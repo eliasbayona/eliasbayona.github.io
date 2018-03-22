@@ -1,0 +1,88 @@
+ /** Font made from http://www.onlinewebfonts.com oNline Web Fonts is licensed by CC BY 3.0 **/
+
+/**	=========================
+			Nav bar 	#83B1CE
+	========================= **/
+
+.navbar-custom {
+	margin: 0;
+	z-index: 1000;
+	width: 100%;
+	list-style-type: none;
+	background-color: black;
+	border-bottom: .5px solid #83B1CE;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.nav li a:hover{
+	color: white;
+	background-color: rgba(0,0,0,0);
+}
+.nav li a {
+	display: block;
+	color: #83B1CE;
+	font: normal normal normal 16px/1.4em nimbus-sans-tw01con,sans-serif;
+	text-align: center;
+}
+.navbar-center{
+	float: right;
+	display: table;	
+	table-layout: fixed;
+	margin-right:300px;
+}
+
+/** ============================
+				Fonts
+	============================ **/
+
+@font-face {
+	font-family: nimbus-sans-tw01con;
+	src: url(../fonts/nimbus_sans_becker_dcon.ttf);
+}
+@font-face{
+	font-family: pacifica-w00-condensed;
+	src: url(../fonts/pacificacondensedregular.ttf);
+}
+
+
+.font_2{
+	font: normal normal normal 100px/1.4em pacifica-w00-condensed,fantasy;
+}
+
+.font_3{
+	font: normal normal bold 100px/1.4em pacifica-w00-condensed,fantasy;
+}
+.font_4{
+	font: normal normal normal 20px/1.4em nimbus-sans-tw01con,sans-serif;
+}
+.font_5{
+	    font: normal normal normal 16px/1.4em nimbus-sans-tw01con,sans-serif;
+}
+
+
+
+.breaker{
+	width: 200px;
+	height: 10px;
+	background-color: #215779;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 25px;
+	margin-bottom:  25px;
+	
+}
+
+.c1{
+	color: #959596;
+	padding: 0px;
+	margin: 0px;
+}
+#features{
+	background-size: auto auto;
+	background-repeat: repeat;
+	background-position: center center;
+	background-image: url(../img/bg.png);
+	padding-bottom: 25px;
+}
+
+
